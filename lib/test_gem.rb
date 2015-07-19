@@ -1,5 +1,4 @@
 require "test_gem/version"
-
+require 'test_gem/railtie' if defined?(Rails)
 module TestGem
-  # Your code goes here...
 end
